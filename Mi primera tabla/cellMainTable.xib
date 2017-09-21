@@ -45,6 +45,11 @@
                     </label>
                 </subviews>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="imgUser" destination="uoT-Ts-X7k" id="CvO-yO-lTD"/>
+                <outlet property="lblAge" destination="ZU2-6h-kTt" id="Xy5-Oh-Zwm"/>
+                <outlet property="lblName" destination="cmY-mg-ciP" id="A2v-DH-iNp"/>
+            </connections>
         </tableViewCell>
     </objects>
     <resources>
