@@ -36,7 +36,7 @@
     
     self.userImages = [[NSMutableArray alloc] initWithObjects: @"arya.jpg", @"cersei.jpg", @"daenerys.jpg", @"jon-snow.jpg", nil];
     
-    self.userImages = [[NSMutableArray alloc] initWithObjects: @"16", @"42", @"30", @"31", nil];
+    self.userAges = [[NSMutableArray alloc] initWithObjects: @"16", @"42", @"30", @"31", nil];
 }
 
 #pragma mark - Table methods
@@ -63,9 +63,9 @@
         cell = (cellMainTable *)[tableView dequeueReusableCellWithIdentifier: @"cellMainTable"];
     }
     
-    //cell.lblName.text = [self.userNames objectAtIndex:indexPath];
-    //cell.lblAge.text = [self.userAges objectAtIndex:indexPath];
-    //cell.imgUser.image = [self.userNames objectAtIndex:indexPath];
+    cell.lblName.text = [self.userNames objectAtIndex:indexPath.row];
+    cell.lblAge.text = [self.userAges objectAtIndex:indexPath.row];
+    cell.imgUser.image = [UIImage imageNamed:[self.userNames objectAtIndex:indexPath.row]];
     
     return cell;
     
