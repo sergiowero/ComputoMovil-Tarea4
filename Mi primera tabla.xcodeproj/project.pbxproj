@@ -13,6 +13,9 @@
 		BEC799EE1F73341400CA2E63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC799EC1F73341400CA2E63 /* Main.storyboard */; };
 		BEC799F01F73341400CA2E63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC799EF1F73341400CA2E63 /* Assets.xcassets */; };
 		BEC799F31F73341400CA2E63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC799F11F73341400CA2E63 /* LaunchScreen.storyboard */; };
+		BEC79A001F7336C100CA2E63 /* cellMainTable.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC799FE1F7336C100CA2E63 /* cellMainTable.m */; };
+		BEC79A011F7336C100CA2E63 /* cellMainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEC799FF1F7336C100CA2E63 /* cellMainTable.xib */; };
+		BEC79A051F7338F200CA2E63 /* imgs in Resources */ = {isa = PBXBuildFile; fileRef = BEC79A041F7338F200CA2E63 /* imgs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		BEC799EF1F73341400CA2E63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEC799F21F73341400CA2E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEC799F41F73341400CA2E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC799FD1F7336C100CA2E63 /* cellMainTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellMainTable.h; sourceTree = "<group>"; };
+		BEC799FE1F7336C100CA2E63 /* cellMainTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellMainTable.m; sourceTree = "<group>"; };
+		BEC799FF1F7336C100CA2E63 /* cellMainTable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellMainTable.xib; sourceTree = "<group>"; };
+		BEC79A041F7338F200CA2E63 /* imgs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = imgs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +65,10 @@
 		BEC799E21F73341200CA2E63 /* Mi primera tabla */ = {
 			isa = PBXGroup;
 			children = (
-				BEC799E61F73341300CA2E63 /* AppDelegate.h */,
-				BEC799E71F73341300CA2E63 /* AppDelegate.m */,
-				BEC799E91F73341300CA2E63 /* ViewController.h */,
-				BEC799EA1F73341300CA2E63 /* ViewController.m */,
+				BEC799FA1F73359D00CA2E63 /* Main */,
+				BEC799FB1F7335AE00CA2E63 /* Controllers */,
+				BEC799FC1F73361100CA2E63 /* Cells */,
+				BEC79A041F7338F200CA2E63 /* imgs */,
 				BEC799EC1F73341400CA2E63 /* Main.storyboard */,
 				BEC799EF1F73341400CA2E63 /* Assets.xcassets */,
 				BEC799F11F73341400CA2E63 /* LaunchScreen.storyboard */,
@@ -77,6 +84,34 @@
 				BEC799E41F73341300CA2E63 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEC799FA1F73359D00CA2E63 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BEC799E61F73341300CA2E63 /* AppDelegate.h */,
+				BEC799E71F73341300CA2E63 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		BEC799FB1F7335AE00CA2E63 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BEC799E91F73341300CA2E63 /* ViewController.h */,
+				BEC799EA1F73341300CA2E63 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BEC799FC1F73361100CA2E63 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BEC799FD1F7336C100CA2E63 /* cellMainTable.h */,
+				BEC799FE1F7336C100CA2E63 /* cellMainTable.m */,
+				BEC799FF1F7336C100CA2E63 /* cellMainTable.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +175,8 @@
 				BEC799F31F73341400CA2E63 /* LaunchScreen.storyboard in Resources */,
 				BEC799F01F73341400CA2E63 /* Assets.xcassets in Resources */,
 				BEC799EE1F73341400CA2E63 /* Main.storyboard in Resources */,
+				BEC79A011F7336C100CA2E63 /* cellMainTable.xib in Resources */,
+				BEC79A051F7338F200CA2E63 /* imgs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +190,7 @@
 				BEC799EB1F73341300CA2E63 /* ViewController.m in Sources */,
 				BEC799E81F73341300CA2E63 /* AppDelegate.m in Sources */,
 				BEC799E51F73341300CA2E63 /* main.m in Sources */,
+				BEC79A001F7336C100CA2E63 /* cellMainTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +347,7 @@
 				BEC799F91F73341400CA2E63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
