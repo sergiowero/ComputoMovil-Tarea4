@@ -32,11 +32,11 @@
 }
 
 - (void)initController {
-    self.userNames = [[NSMutableArray alloc] initWithObjects: @"Arya Stark", @"Cersei Lannister", @"Daenerys Targaryen", @"Jon Snow", nil];
+    self.userNames = [[NSMutableArray alloc] initWithObjects: @"Arya Stark", @"Cersei Lannister", @"Daenerys Targaryen", @"Jon Snow", @"Sansa Stark", nil];
     
-    self.userImages = [[NSMutableArray alloc] initWithObjects: @"arya.jpg", @"cersei.jpg", @"daenerys.jpg", @"jon-snow.jpg", nil];
+    self.userImages = [[NSMutableArray alloc] initWithObjects: @"arya.jpg", @"cersei.jpg", @"daenerys.jpg", @"jon-snow.jpg", @"sansa.jpg", nil];
     
-    self.userAges = [[NSMutableArray alloc] initWithObjects: @"16", @"42", @"30", @"31", nil];
+    self.userAges = [[NSMutableArray alloc] initWithObjects: @"16", @"42", @"30", @"31", @"20", nil];
 }
 
 #pragma mark - Table methods
@@ -65,7 +65,7 @@
     
     cell.lblName.text = [self.userNames objectAtIndex:indexPath.row];
     cell.lblAge.text = [self.userAges objectAtIndex:indexPath.row];
-    cell.imgUser.image = [UIImage imageNamed:[self.userNames objectAtIndex:indexPath.row]];
+    cell.imgUser.image = [UIImage imageNamed:self.userImages[indexPath.row]];
     
     return cell;
     
