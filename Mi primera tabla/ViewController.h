@@ -11,7 +11,7 @@
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITableView *tblMain;
-
+- (IBAction)agregarPressed:(id)sender;
 
 @end
 

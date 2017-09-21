@@ -71,4 +71,12 @@
     
 }
 
+#pragma mark - Action methods
+
+- (IBAction)agregarPressed:(id)sender {
+    [self.userNames addObject:@"Sergio"];
+    [self.userAges addObject:@"29"];
+    [self.userImages addObject:@"jon-snow.jpg"];
+    [self.tblMain reloadData];
+}
 @end
