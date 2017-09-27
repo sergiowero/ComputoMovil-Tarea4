@@ -7,46 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE67D05D1F734A4A00CF8BF5 /* arya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE67D0571F734A4A00CF8BF5 /* arya.jpg */; };
-		BE67D05E1F734A4A00CF8BF5 /* cersei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE67D0581F734A4A00CF8BF5 /* cersei.jpg */; };
-		BE67D05F1F734A4A00CF8BF5 /* daenerys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE67D0591F734A4A00CF8BF5 /* daenerys.jpg */; };
-		BE67D0601F734A4A00CF8BF5 /* jon-snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE67D05A1F734A4A00CF8BF5 /* jon-snow.jpg */; };
-		BE67D0611F734A4A00CF8BF5 /* sansa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE67D05B1F734A4A00CF8BF5 /* sansa.jpg */; };
-		BE67D0621F734A4A00CF8BF5 /* tyrion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE67D05C1F734A4A00CF8BF5 /* tyrion.jpg */; };
-		BEC799E51F73341300CA2E63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC799E41F73341300CA2E63 /* main.m */; };
-		BEC799E81F73341300CA2E63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC799E71F73341300CA2E63 /* AppDelegate.m */; };
-		BEC799EB1F73341300CA2E63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC799EA1F73341300CA2E63 /* ViewController.m */; };
-		BEC799EE1F73341400CA2E63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC799EC1F73341400CA2E63 /* Main.storyboard */; };
-		BEC799F01F73341400CA2E63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC799EF1F73341400CA2E63 /* Assets.xcassets */; };
-		BEC799F31F73341400CA2E63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC799F11F73341400CA2E63 /* LaunchScreen.storyboard */; };
-		BEC79A001F7336C100CA2E63 /* cellMainTable.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC799FE1F7336C100CA2E63 /* cellMainTable.m */; };
-		BEC79A011F7336C100CA2E63 /* cellMainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEC799FF1F7336C100CA2E63 /* cellMainTable.xib */; };
+		8108CB881F732FD600A7900C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108CB871F732FD600A7900C /* main.m */; };
+		8108CB8B1F732FD600A7900C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108CB8A1F732FD600A7900C /* AppDelegate.m */; };
+		8108CB911F732FD600A7900C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8108CB8F1F732FD600A7900C /* Main.storyboard */; };
+		8108CB931F732FD600A7900C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8108CB921F732FD600A7900C /* Assets.xcassets */; };
+		8108CB961F732FD600A7900C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8108CB941F732FD600A7900C /* LaunchScreen.storyboard */; };
+		8108CBA31F7336C200A7900C /* cellMainTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108CBA11F7336C200A7900C /* cellMainTable.m */; };
+		8108CBA41F7336C200A7900C /* cellMainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8108CBA21F7336C200A7900C /* cellMainTable.xib */; };
+		81F20CA91F7B376D00F04B15 /* AddCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F20CA81F7B376D00F04B15 /* AddCellViewController.m */; };
+		81F9A8111F7BF83D00F90021 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F9A8101F7BF83D00F90021 /* InfoViewController.m */; };
+		81F9A8141F7C23B800F90021 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F9A8131F7C23B800F90021 /* ViewController.m */; };
+		81F9A81B1F7C23F400F90021 /* arya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81F9A8151F7C23F400F90021 /* arya.jpg */; };
+		81F9A81C1F7C23F400F90021 /* cersei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81F9A8161F7C23F400F90021 /* cersei.jpg */; };
+		81F9A81D1F7C23F400F90021 /* daenerys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81F9A8171F7C23F400F90021 /* daenerys.jpg */; };
+		81F9A81E1F7C23F400F90021 /* jon-snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81F9A8181F7C23F400F90021 /* jon-snow.jpg */; };
+		81F9A81F1F7C23F400F90021 /* sansa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81F9A8191F7C23F400F90021 /* sansa.jpg */; };
+		81F9A8201F7C23F400F90021 /* tyrion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81F9A81A1F7C23F400F90021 /* tyrion.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BE67D0571F734A4A00CF8BF5 /* arya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = arya.jpg; path = imgs/arya.jpg; sourceTree = "<group>"; };
-		BE67D0581F734A4A00CF8BF5 /* cersei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cersei.jpg; path = imgs/cersei.jpg; sourceTree = "<group>"; };
-		BE67D0591F734A4A00CF8BF5 /* daenerys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = daenerys.jpg; path = imgs/daenerys.jpg; sourceTree = "<group>"; };
-		BE67D05A1F734A4A00CF8BF5 /* jon-snow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "jon-snow.jpg"; path = "imgs/jon-snow.jpg"; sourceTree = "<group>"; };
-		BE67D05B1F734A4A00CF8BF5 /* sansa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sansa.jpg; path = imgs/sansa.jpg; sourceTree = "<group>"; };
-		BE67D05C1F734A4A00CF8BF5 /* tyrion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tyrion.jpg; path = imgs/tyrion.jpg; sourceTree = "<group>"; };
-		BEC799E01F73341200CA2E63 /* Mi primera tabla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mi primera tabla.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEC799E41F73341300CA2E63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BEC799E61F73341300CA2E63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BEC799E71F73341300CA2E63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BEC799E91F73341300CA2E63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BEC799EA1F73341300CA2E63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BEC799ED1F73341400CA2E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BEC799EF1F73341400CA2E63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BEC799F21F73341400CA2E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BEC799F41F73341400CA2E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEC799FD1F7336C100CA2E63 /* cellMainTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellMainTable.h; sourceTree = "<group>"; };
-		BEC799FE1F7336C100CA2E63 /* cellMainTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellMainTable.m; sourceTree = "<group>"; };
-		BEC799FF1F7336C100CA2E63 /* cellMainTable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellMainTable.xib; sourceTree = "<group>"; };
+		8108CB831F732FD600A7900C /* Mi primera tabla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mi primera tabla.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8108CB871F732FD600A7900C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8108CB891F732FD600A7900C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8108CB8A1F732FD600A7900C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8108CB901F732FD600A7900C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8108CB921F732FD600A7900C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8108CB951F732FD600A7900C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8108CB971F732FD600A7900C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8108CBA01F7336C200A7900C /* cellMainTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellMainTable.h; sourceTree = "<group>"; };
+		8108CBA11F7336C200A7900C /* cellMainTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellMainTable.m; sourceTree = "<group>"; };
+		8108CBA21F7336C200A7900C /* cellMainTable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellMainTable.xib; sourceTree = "<group>"; };
+		81F20CA71F7B376D00F04B15 /* AddCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCellViewController.h; sourceTree = "<group>"; };
+		81F20CA81F7B376D00F04B15 /* AddCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCellViewController.m; sourceTree = "<group>"; };
+		81F9A80F1F7BF83D00F90021 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		81F9A8101F7BF83D00F90021 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		81F9A8121F7C23B800F90021 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		81F9A8131F7C23B800F90021 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		81F9A8151F7C23F400F90021 /* arya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = arya.jpg; path = imgs/arya.jpg; sourceTree = "<group>"; };
+		81F9A8161F7C23F400F90021 /* cersei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cersei.jpg; path = imgs/cersei.jpg; sourceTree = "<group>"; };
+		81F9A8171F7C23F400F90021 /* daenerys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = daenerys.jpg; path = imgs/daenerys.jpg; sourceTree = "<group>"; };
+		81F9A8181F7C23F400F90021 /* jon-snow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "jon-snow.jpg"; path = "imgs/jon-snow.jpg"; sourceTree = "<group>"; };
+		81F9A8191F7C23F400F90021 /* sansa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sansa.jpg; path = imgs/sansa.jpg; sourceTree = "<group>"; };
+		81F9A81A1F7C23F400F90021 /* tyrion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tyrion.jpg; path = imgs/tyrion.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BEC799DD1F73341200CA2E63 /* Frameworks */ = {
+		8108CB801F732FD600A7900C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,97 +62,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BE67D0561F734A2400CF8BF5 /* Images */ = {
+		8108CB7A1F732FD600A7900C = {
 			isa = PBXGroup;
 			children = (
-				BE67D0571F734A4A00CF8BF5 /* arya.jpg */,
-				BE67D0581F734A4A00CF8BF5 /* cersei.jpg */,
-				BE67D0591F734A4A00CF8BF5 /* daenerys.jpg */,
-				BE67D05A1F734A4A00CF8BF5 /* jon-snow.jpg */,
-				BE67D05B1F734A4A00CF8BF5 /* sansa.jpg */,
-				BE67D05C1F734A4A00CF8BF5 /* tyrion.jpg */,
-			);
-			name = Images;
-			sourceTree = "<group>";
-		};
-		BEC799D71F73341200CA2E63 = {
-			isa = PBXGroup;
-			children = (
-				BEC799E21F73341200CA2E63 /* Mi primera tabla */,
-				BEC799E11F73341200CA2E63 /* Products */,
+				8108CB851F732FD600A7900C /* Mi primera tabla */,
+				8108CB841F732FD600A7900C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BEC799E11F73341200CA2E63 /* Products */ = {
+		8108CB841F732FD600A7900C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BEC799E01F73341200CA2E63 /* Mi primera tabla.app */,
+				8108CB831F732FD600A7900C /* Mi primera tabla.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BEC799E21F73341200CA2E63 /* Mi primera tabla */ = {
+		8108CB851F732FD600A7900C /* Mi primera tabla */ = {
 			isa = PBXGroup;
 			children = (
-				BE67D0561F734A2400CF8BF5 /* Images */,
-				BEC799FA1F73359D00CA2E63 /* Main */,
-				BEC799FB1F7335AE00CA2E63 /* Controllers */,
-				BEC799FC1F73361100CA2E63 /* Cells */,
-				BEC799EC1F73341400CA2E63 /* Main.storyboard */,
-				BEC799EF1F73341400CA2E63 /* Assets.xcassets */,
-				BEC799F11F73341400CA2E63 /* LaunchScreen.storyboard */,
-				BEC799F41F73341400CA2E63 /* Info.plist */,
-				BEC799E31F73341300CA2E63 /* Supporting Files */,
+				8108CBA71F734A2F00A7900C /* Images */,
+				8108CB9F1F73361600A7900C /* Cells */,
+				8108CB9E1F73300500A7900C /* Controllers */,
+				8108CB9D1F732FEC00A7900C /* Main */,
+				8108CB8F1F732FD600A7900C /* Main.storyboard */,
+				8108CB921F732FD600A7900C /* Assets.xcassets */,
+				8108CB941F732FD600A7900C /* LaunchScreen.storyboard */,
+				8108CB971F732FD600A7900C /* Info.plist */,
+				8108CB861F732FD600A7900C /* Supporting Files */,
 			);
 			path = "Mi primera tabla";
 			sourceTree = "<group>";
 		};
-		BEC799E31F73341300CA2E63 /* Supporting Files */ = {
+		8108CB861F732FD600A7900C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BEC799E41F73341300CA2E63 /* main.m */,
+				8108CB871F732FD600A7900C /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BEC799FA1F73359D00CA2E63 /* Main */ = {
+		8108CB9D1F732FEC00A7900C /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				BEC799E61F73341300CA2E63 /* AppDelegate.h */,
-				BEC799E71F73341300CA2E63 /* AppDelegate.m */,
+				8108CB891F732FD600A7900C /* AppDelegate.h */,
+				8108CB8A1F732FD600A7900C /* AppDelegate.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
 		};
-		BEC799FB1F7335AE00CA2E63 /* Controllers */ = {
+		8108CB9E1F73300500A7900C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BEC799E91F73341300CA2E63 /* ViewController.h */,
-				BEC799EA1F73341300CA2E63 /* ViewController.m */,
+				81F9A8121F7C23B800F90021 /* ViewController.h */,
+				81F9A8131F7C23B800F90021 /* ViewController.m */,
+				81F20CA71F7B376D00F04B15 /* AddCellViewController.h */,
+				81F20CA81F7B376D00F04B15 /* AddCellViewController.m */,
+				81F9A80F1F7BF83D00F90021 /* InfoViewController.h */,
+				81F9A8101F7BF83D00F90021 /* InfoViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
 		};
-		BEC799FC1F73361100CA2E63 /* Cells */ = {
+		8108CB9F1F73361600A7900C /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				BEC799FD1F7336C100CA2E63 /* cellMainTable.h */,
-				BEC799FE1F7336C100CA2E63 /* cellMainTable.m */,
-				BEC799FF1F7336C100CA2E63 /* cellMainTable.xib */,
+				8108CBA01F7336C200A7900C /* cellMainTable.h */,
+				8108CBA11F7336C200A7900C /* cellMainTable.m */,
+				8108CBA21F7336C200A7900C /* cellMainTable.xib */,
 			);
 			name = Cells;
+			sourceTree = "<group>";
+		};
+		8108CBA71F734A2F00A7900C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				81F9A8151F7C23F400F90021 /* arya.jpg */,
+				81F9A8161F7C23F400F90021 /* cersei.jpg */,
+				81F9A8171F7C23F400F90021 /* daenerys.jpg */,
+				81F9A8181F7C23F400F90021 /* jon-snow.jpg */,
+				81F9A8191F7C23F400F90021 /* sansa.jpg */,
+				81F9A81A1F7C23F400F90021 /* tyrion.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BEC799DF1F73341200CA2E63 /* Mi primera tabla */ = {
+		8108CB821F732FD600A7900C /* Mi primera tabla */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEC799F71F73341400CA2E63 /* Build configuration list for PBXNativeTarget "Mi primera tabla" */;
+			buildConfigurationList = 8108CB9A1F732FD600A7900C /* Build configuration list for PBXNativeTarget "Mi primera tabla" */;
 			buildPhases = (
-				BEC799DC1F73341200CA2E63 /* Sources */,
-				BEC799DD1F73341200CA2E63 /* Frameworks */,
-				BEC799DE1F73341200CA2E63 /* Resources */,
+				8108CB7F1F732FD600A7900C /* Sources */,
+				8108CB801F732FD600A7900C /* Frameworks */,
+				8108CB811F732FD600A7900C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -154,25 +164,25 @@
 			);
 			name = "Mi primera tabla";
 			productName = "Mi primera tabla";
-			productReference = BEC799E01F73341200CA2E63 /* Mi primera tabla.app */;
+			productReference = 8108CB831F732FD600A7900C /* Mi primera tabla.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BEC799D81F73341200CA2E63 /* Project object */ = {
+		8108CB7B1F732FD600A7900C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = VirtualBox;
+				ORGANIZATIONNAME = MacL;
 				TargetAttributes = {
-					BEC799DF1F73341200CA2E63 = {
+					8108CB821F732FD600A7900C = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = BEC799DB1F73341200CA2E63 /* Build configuration list for PBXProject "Mi primera tabla" */;
+			buildConfigurationList = 8108CB7E1F732FD600A7900C /* Build configuration list for PBXProject "Mi primera tabla" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -180,63 +190,65 @@
 				en,
 				Base,
 			);
-			mainGroup = BEC799D71F73341200CA2E63;
-			productRefGroup = BEC799E11F73341200CA2E63 /* Products */;
+			mainGroup = 8108CB7A1F732FD600A7900C;
+			productRefGroup = 8108CB841F732FD600A7900C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BEC799DF1F73341200CA2E63 /* Mi primera tabla */,
+				8108CB821F732FD600A7900C /* Mi primera tabla */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BEC799DE1F73341200CA2E63 /* Resources */ = {
+		8108CB811F732FD600A7900C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE67D05E1F734A4A00CF8BF5 /* cersei.jpg in Resources */,
-				BEC799F31F73341400CA2E63 /* LaunchScreen.storyboard in Resources */,
-				BE67D05D1F734A4A00CF8BF5 /* arya.jpg in Resources */,
-				BE67D05F1F734A4A00CF8BF5 /* daenerys.jpg in Resources */,
-				BEC799F01F73341400CA2E63 /* Assets.xcassets in Resources */,
-				BEC799EE1F73341400CA2E63 /* Main.storyboard in Resources */,
-				BE67D0621F734A4A00CF8BF5 /* tyrion.jpg in Resources */,
-				BE67D0601F734A4A00CF8BF5 /* jon-snow.jpg in Resources */,
-				BEC79A011F7336C100CA2E63 /* cellMainTable.xib in Resources */,
-				BE67D0611F734A4A00CF8BF5 /* sansa.jpg in Resources */,
+				81F9A81C1F7C23F400F90021 /* cersei.jpg in Resources */,
+				8108CB961F732FD600A7900C /* LaunchScreen.storyboard in Resources */,
+				81F9A81B1F7C23F400F90021 /* arya.jpg in Resources */,
+				81F9A81D1F7C23F400F90021 /* daenerys.jpg in Resources */,
+				8108CB931F732FD600A7900C /* Assets.xcassets in Resources */,
+				8108CB911F732FD600A7900C /* Main.storyboard in Resources */,
+				81F9A8201F7C23F400F90021 /* tyrion.jpg in Resources */,
+				81F9A81E1F7C23F400F90021 /* jon-snow.jpg in Resources */,
+				8108CBA41F7336C200A7900C /* cellMainTable.xib in Resources */,
+				81F9A81F1F7C23F400F90021 /* sansa.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BEC799DC1F73341200CA2E63 /* Sources */ = {
+		8108CB7F1F732FD600A7900C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC799EB1F73341300CA2E63 /* ViewController.m in Sources */,
-				BEC799E81F73341300CA2E63 /* AppDelegate.m in Sources */,
-				BEC799E51F73341300CA2E63 /* main.m in Sources */,
-				BEC79A001F7336C100CA2E63 /* cellMainTable.m in Sources */,
+				81F9A8141F7C23B800F90021 /* ViewController.m in Sources */,
+				81F20CA91F7B376D00F04B15 /* AddCellViewController.m in Sources */,
+				81F9A8111F7BF83D00F90021 /* InfoViewController.m in Sources */,
+				8108CB8B1F732FD600A7900C /* AppDelegate.m in Sources */,
+				8108CB881F732FD600A7900C /* main.m in Sources */,
+				8108CBA31F7336C200A7900C /* cellMainTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BEC799EC1F73341400CA2E63 /* Main.storyboard */ = {
+		8108CB8F1F732FD600A7900C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BEC799ED1F73341400CA2E63 /* Base */,
+				8108CB901F732FD600A7900C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BEC799F11F73341400CA2E63 /* LaunchScreen.storyboard */ = {
+		8108CB941F732FD600A7900C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BEC799F21F73341400CA2E63 /* Base */,
+				8108CB951F732FD600A7900C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -244,7 +256,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BEC799F51F73341400CA2E63 /* Debug */ = {
+		8108CB981F732FD600A7900C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,7 +304,7 @@
 			};
 			name = Debug;
 		};
-		BEC799F61F73341400CA2E63 /* Release */ = {
+		8108CB991F732FD600A7900C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -334,24 +346,24 @@
 			};
 			name = Release;
 		};
-		BEC799F81F73341400CA2E63 /* Debug */ = {
+		8108CB9B1F732FD600A7900C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Mi primera tabla/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.uag.Mi-primera-tabla";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.Mi-primera-tabla";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		BEC799F91F73341400CA2E63 /* Release */ = {
+		8108CB9C1F732FD600A7900C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Mi primera tabla/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.uag.Mi-primera-tabla";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.Mi-primera-tabla";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -359,25 +371,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BEC799DB1F73341200CA2E63 /* Build configuration list for PBXProject "Mi primera tabla" */ = {
+		8108CB7E1F732FD600A7900C /* Build configuration list for PBXProject "Mi primera tabla" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEC799F51F73341400CA2E63 /* Debug */,
-				BEC799F61F73341400CA2E63 /* Release */,
+				8108CB981F732FD600A7900C /* Debug */,
+				8108CB991F732FD600A7900C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEC799F71F73341400CA2E63 /* Build configuration list for PBXNativeTarget "Mi primera tabla" */ = {
+		8108CB9A1F732FD600A7900C /* Build configuration list for PBXNativeTarget "Mi primera tabla" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEC799F81F73341400CA2E63 /* Debug */,
-				BEC799F91F73341400CA2E63 /* Release */,
+				8108CB9B1F732FD600A7900C /* Debug */,
+				8108CB9C1F732FD600A7900C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BEC799D81F73341200CA2E63 /* Project object */;
+	rootObject = 8108CB7B1F732FD600A7900C /* Project object */;
 }

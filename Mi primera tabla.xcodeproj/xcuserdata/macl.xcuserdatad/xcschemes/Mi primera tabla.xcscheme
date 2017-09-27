@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BEC799DF1F73341200CA2E63"
+               BlueprintIdentifier = "8108CB821F732FD600A7900C"
                BuildableName = "Mi primera tabla.app"
                BlueprintName = "Mi primera tabla"
                ReferencedContainer = "container:Mi primera tabla.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BEC799DF1F73341200CA2E63"
+            BlueprintIdentifier = "8108CB821F732FD600A7900C"
             BuildableName = "Mi primera tabla.app"
             BlueprintName = "Mi primera tabla"
             ReferencedContainer = "container:Mi primera tabla.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BEC799DF1F73341200CA2E63"
+            BlueprintIdentifier = "8108CB821F732FD600A7900C"
             BuildableName = "Mi primera tabla.app"
             BlueprintName = "Mi primera tabla"
             ReferencedContainer = "container:Mi primera tabla.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BEC799DF1F73341200CA2E63"
+            BlueprintIdentifier = "8108CB821F732FD600A7900C"
             BuildableName = "Mi primera tabla.app"
             BlueprintName = "Mi primera tabla"
             ReferencedContainer = "container:Mi primera tabla.xcodeproj">
